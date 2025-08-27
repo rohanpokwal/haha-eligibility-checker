@@ -9,16 +9,70 @@ function formatDateMMDDYYYY(dateObj) {
 function parseISOorMMDDYYYY(value) {
   if (!value) return null;
   if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
-    // from <input type="date"> if used
+    // ISO
     const d = new Date(value);
     return isNaN(d) ? null : d;
   }
   if (/^\d{2}\/\d{2}\/\d{4}$/.test(value)) {
+    // MM/DD/YYYY
     const [m, d, y] = value.split("/").map(Number);
     const dt = new Date(y, m - 1, d);
     return isNaN(dt) ? null : dt;
   }
   return null;
+}
+
+// Mask: auto-insert slashes while typing digits -> MM/DD/YYYY
+function applyDateMask(input) {
+  // Handle paste of ISO or sloppy text
+  input.addEventListener("paste", (e) => {
+    const t = (e.clipboardData || window.clipboardData).getData("text").trim();
+    if (/^\d{4}-\d{2}-\d{2}$/.test(t)) {
+      e.preventDefault();
+      const [y, m, d] = t.split("-");
+      input.value = `${m}/${d}/${y}`;
+      input.dispatchEvent(new Event("input"));
+    }
+  });
+
+  // Build value from digits only, insert slashes
+  input.addEventListener("input", () => {
+    const digits = input.value.replace(/\D/g, "").slice(0, 8); // MMDDYYYY
+    let mm = digits.slice(0, 2);
+    let dd = digits.slice(2, 4);
+    let yyyy = digits.slice(4, 8);
+
+    // Clamp month/day lightly
+    if (mm.length === 2) {
+      let m = Math.min(Math.max(parseInt(mm, 10) || 0, 1), 12);
+      mm = String(m).padStart(2, "0");
+    }
+    if (dd.length === 2) {
+      let d = Math.min(Math.max(parseInt(dd, 10) || 0, 1), 31);
+      dd = String(d).padStart(2, "0");
+    }
+
+    let out = mm;
+    if (dd) out += `/${dd}`;
+    if (yyyy) out += `/${yyyy}`;
+
+    input.value = out;
+  });
+
+  // Smooth backspace over slashes
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Backspace") {
+      const pos = input.selectionStart;
+      if (pos && input.value[pos - 1] === "/") {
+        e.preventDefault();
+        const before = input.value.slice(0, pos - 1);
+        const after = input.value.slice(pos);
+        input.value = before + after;
+        const newPos = pos - 1;
+        input.setSelectionRange(newPos, newPos);
+      }
+    }
+  });
 }
 
 // ================= Data load =================
@@ -35,7 +89,7 @@ fetch("hha_disqualifying_offenses_full_with_names.json")
     results.innerHTML = `
       <div class="result-badge yellow">⚠️ Could not load the offenses list.
       Make sure <strong>hha_disqualifying_offenses_full_with_names.json</strong> is in the same folder and
-      you are running a local server (not opening the file directly).</div>`;
+      you are running a local server.</div>`;
   });
 
 // ================= DOM hooks =================
@@ -44,8 +98,6 @@ document.getElementById("add-offense").addEventListener("click", addOffenseRow);
 document
   .getElementById("check-btn")
   .addEventListener("click", checkEligibility);
-
-// clear (✖) for the name input
 document.querySelectorAll(".clear-input").forEach((btn) => {
   btn.addEventListener("click", () => {
     const id = btn.getAttribute("data-target");
@@ -70,6 +122,7 @@ function addOffenseRow() {
   row
     .querySelector(".remove-btn")
     .addEventListener("click", () => offenseList.removeChild(row));
+  applyDateMask(row.querySelector(".date")); // <-- enable auto slashes
 }
 
 // ================= Core Logic =================
@@ -175,7 +228,6 @@ function checkEligibility() {
   if (hasNever) {
     html += `<div class="result-badge red">❌ ${name} is NOT eligible to work as an HHA.</div>`;
   } else if (futureDates.length > 0) {
-    // strictest (latest) “eligible on”
     const maxDate = new Date(Math.max.apply(null, futureDates));
     html += `<div class="result-badge yellow">⚠️ ${name} is not eligible now, but will be eligible on ${formatDateMMDDYYYY(
       maxDate
