@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>HHA Eligibility Checker (Ohio)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>HHA Eligibility Checker (Ohio)</h1>
+      <p class="sub">
+        Determine if an applicant can be employed as a Home Health Aide under
+        Ohio’s disqualifying offense rules.
+      </p>
+
+      <!-- Name (optional) -->
+      <label for="name">Person's Name (optional)</label>
+      <div class="input-with-clear">
+        <input type="text" id="name" placeholder="e.g., Person A" />
+        <button class="clear-input" data-target="name" aria-label="Clear name">
+          ✖
+        </button>
+      </div>
+
+      <!-- Offense entries -->
+      <div class="offense-header">
+        <div>Statute code (e.g., 2911.12)</div>
+        <div>Discharge date (MM/DD/YYYY)</div>
+        <div></div>
+      </div>
+      <div id="offense-list"></div>
+
+      <div class="actions">
+        <button id="add-offense" class="secondary">+ Add Offense</button>
+        <button id="check-btn" class="primary">Check Eligibility</button>
+      </div>
+
+      <!-- Results -->
+      <div id="results" aria-live="polite"></div>
+
+      <p class="footnote">
+        Notes: Tier I = permanent exclusion; Tier II/III/IV = time-based (enter
+        discharge date for accuracy); Tier V or unknown code = eligible now.
+        This tool is for informational purposes only.
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

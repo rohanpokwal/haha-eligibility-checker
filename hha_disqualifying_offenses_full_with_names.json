@@ -1,0 +1,1138 @@
+[
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.01",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "aggravated murder"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.02",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "murder"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.03",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "voluntary manslaughter"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.06",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "aggravated vehicular homicide, vehicular homicide,vehicular manslaughter\n \n(e"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.08",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "aggravated vehicular assault, vehicular assault"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.11",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "felonious assault"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.15",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "permitting child abuse"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.16",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "knowingly or recklessly failing to provide for a functionally-impaired person"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.34",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "patient abuse, gross patient abuse, patient neglect"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.341",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "patient endangerment"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2905.01",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "kidnapping"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2905.02",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "abduction"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2905.32",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "trafficking in persons"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2905.33",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "unlawful conduct with respect to documents"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.02",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "rape"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.03",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "sexual battery"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.04",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "unlawful sexual conduct with a minor, formerly corruption of a minor"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.05",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "gross sexual imposition"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.06",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "sexual imposition"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.07",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "importuning"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.08",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "voyeurism"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.12",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "felonious sexual penetration"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.31",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "disseminating matter harmful to juveniles"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.32",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "pandering obscenity"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.321",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "pandering obscenity involving a minor or impaired person"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.322",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "pandering sexually-oriented matter involving a minor or impaired person"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.323",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "illegal use of a minor or impaired person in nudity-oriented material or performance"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2909.22",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "soliciting or providing support for an act of terrorism"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2909.23",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "making a terroristic threat"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2909.24",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "terrorism"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.40",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "medicaid fraud"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.01",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "conspiracy"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.02",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "attempt"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.03",
+    "tier": 1,
+    "exclusion_years": "permanent",
+    "notes": "Permanent exclusion. Never eligible.",
+    "offense_name": "complicity"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.04",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "involuntary manslaughter"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.041",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "reckless homicide"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2905.04",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "child stealing, as it existed prior to July 1, 1996"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2905.05",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "child enticement"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2905.11",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "extortion"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.21",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "compelling prostitution"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.22",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "promoting prostitution"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.23",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "enticing or soliciting another person to patronize a prostitute; procurement of a\nprostitute for another person to patronize"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2909.02",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "aggravated arson"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2909.03",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "arson"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2911.01",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "aggravated robbery"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2911.11",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "aggravated burglary"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.46",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "illegal use of SNAP or WIC program benefits"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.48",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "worker's compensation fraud"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.49",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "identity fraud"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2917.02",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "aggravated riot"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.01",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "conspiracy"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.02",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "attempt"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.03",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "complicity"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.12",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "carrying concealed weapons"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.122",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "illegal conveyance or possession of deadly weapon or dangerous ordnance in a\nschool safety zone, illegal possession of an object indistinguishable from a firearm in a school safety\nzone"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.123",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "illegal conveyance of a deadly weapon into a courthouse, possession or control of\nPage 5 \ndeadly weapon or ordnance into a courthouse"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.13",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "having weapons while under disability"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.161",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "improperly discharging a firearm at or into a habitation, school safety zone, or with\nthe intent to cause harm or panic to persons in a school, in a school building, or at a school function\nor the evacuation of a school function"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.162",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "discharge of firearm on or near prohibited premises"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.21",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "improperly furnishing firearms to a minor"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.32",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "engaging in a pattern of corrupt activity"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.42",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "participating in a criminal gang"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.02",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "corrupting another with drugs"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.03",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "aggravated trafficking in drugs, trafficking in drugs, trafficking in marihuana,\ntrafficking in cocaine, trafficking in LSD, trafficking in heroin, trafficking in hashish, trafficking in a\ncontrolled substance analog, trafficking in a fentanyl-related compound"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.04",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "illegal manufacture of drugs, cultivation of marijuana"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.041",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "illegal assembly or possession of chemicals for the manufacture of drugs"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "3716.11",
+    "tier": 2,
+    "exclusion_years": 10,
+    "notes": "10-year exclusion after discharge. Multiple offenses can extend to 15 years.",
+    "offense_name": "placing harmful or hazardous objects in food or confection"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.12",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "aggravated assault"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.21",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "aggravated menacing"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.211",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "menacing by stalking"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2905.12",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "coercion"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2909.04",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "disrupting public services"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2911.02",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "robbery"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2911.12",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "burglary, trespass in a habitation when a person is present or likely to be present"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.47",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "insurance fraud"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2917.01",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "inciting to violence"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2917.03",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "riot"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2917.31",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "inducing panic"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2919.22",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "endangering children"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2919.25",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "domestic violence"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.03",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "intimidation"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.11",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "perjury"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.13",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "falsification, falsification in a theft offense, falsification to purchase a firearm, or\nfalsification to obtain a concealed handgun license, falsification regarding a removal proceeding"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.34",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "escape"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.35",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "aiding escape or resistance to lawful authority"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.36",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "illegal conveyance of weapons, drugs, intoxicating liquor, or a communications\ndevice onto the grounds of a specified government facility,illegal conveyance of cash onto the\ngrounds of a detention facility"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.01",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "conspiracy"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.02",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "attempt"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.03",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "complicity"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.05",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "funding drug trafficking"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.06",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "illegal administration of distribution of anabolic steroids"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.24",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "tampering with drugs"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2927.12",
+    "tier": 3,
+    "exclusion_years": 7,
+    "notes": "7-year exclusion after discharge. Multiple offenses can extend to 10 years.",
+    "offense_name": "ethnic intimidation"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.13",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "assault"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2903.22",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "menacing"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.09",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "public indecency"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.24",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "soliciting, engaging in solicitation after a positive HIV test"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.25",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "prostitution, engaging in prostitution after a positive HIV test"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2907.33",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "deception to obtain matter harmful to juveniles"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2911.13",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "breaking and entering"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.02",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "theft"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.03",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "unauthorized use of a vehicle"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.04",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "unauthorized use of property; unauthorized use of computer, cable, or\ntelecommunication property; unauthorized use of the law enforcement automated database system;\nunauthorized use of the Ohio law enforcement gateway"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.05",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "telecommunications fraud"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.11",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "passing bad checks"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.21",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "misuse of credit cards"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.31",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "forgery, forging identification cards or selling or distributing forged identification\ncards"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.32",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "criminal simulation"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.41",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "defrauding a rental agency or hostelry"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.42",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "tampering with records"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.43",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "securing writings by deception"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.44",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "personating an officer"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.441",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "unlawful display of the emblem of a law enforcement agency or an organization of\nlaw enforcement officers"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.45",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "defrauding creditors"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2913.51",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "receiving stolen property"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2919.12",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "unlawful abortion"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2919.121",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "unlawful abortion (upon minor"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2919.123",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "unlawful distribution of an abortion-inducing drug"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2919.124",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "unlawful performance of a drug-induced abortion"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2919.23",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "interference with custody"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2919.24",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "contributing to the unruliness or delinquency of a child"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.12",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "tampering with evidence"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.21",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "compounding a crime"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.24",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "disclosure of confidential information"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.32",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "obstructing justice"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.321",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "assaulting or harassing a police dog or horse, assaulting or harassing an assistance\ndog"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2921.51",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "impersonation of peace officer, private police officer, federal law enforcement\nofficer, or BCII investigator"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.01",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "conspiracy"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.02",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "attempt"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2923.03",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "complicity"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.09",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "illegal administration, dispensing, distribution, manufacture, possession, selling, or\nusing of any dangerous drug to or for livestock or any animal that is generally used for food or in the\nPage 11 \nproduction of food, unless the drug is prescribed by a licensed veterinarian"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.11",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "drug possession that is a minor drug possession offense"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.13",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "permitting drug abuse"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.22",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "deception to obtain a dangerous drug"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.23",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "illegal processing of drug documents"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.36",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "illegal dispensing of drug samples"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.56",
+    "tier": 4,
+    "exclusion_years": 5,
+    "notes": "5-year exclusion after discharge. Multiple offenses can extend to 7 years.",
+    "offense_name": "unlawfully selling a pseudoephedrine product or ephedrine product; unlawfully\nselling a pseudoephedrine product or ephedrine product to a minor; improper sale of a\npseudoephedrine product or ephedrine product"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.11",
+    "tier": 5,
+    "exclusion_years": 0,
+    "notes": "No exclusionary period. Eligible immediately.",
+    "offense_name": "drug possession that is a minor drug possession offense"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.14",
+    "tier": 5,
+    "exclusion_years": 0,
+    "notes": "No exclusionary period. Eligible immediately.",
+    "offense_name": "illegal use, possession, dealing, selling to a juvenile, or advertising of drug\nparaphernalia"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2925.141",
+    "tier": 5,
+    "exclusion_years": 0,
+    "notes": "No exclusionary period. Eligible immediately.",
+    "offense_name": "illegal use or possession of marihuana drug paraphernalia"
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2953.25",
+    "tier": 5,
+    "exclusion_years": 0,
+    "notes": "No exclusionary period. Eligible immediately.",
+    "offense_name": ""
+  },
+  {
+    "jurisdiction": "OH",
+    "statute_code": "2961.22",
+    "tier": 5,
+    "exclusion_years": 0,
+    "notes": "No exclusionary period. Eligible immediately.",
+    "offense_name": ""
+  }
+]
