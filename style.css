@@ -82,6 +82,7 @@ label {
   font-size: 14px;
   margin-top: 18px;
 }
+
 .offense-entry {
   display: grid;
   grid-template-columns: 2fr 2fr 48px;

@@ -6,15 +6,14 @@ function formatDateMMDDYYYY(dateObj) {
   return `${mm}/${dd}/${yyyy}`;
 }
 
+// Accepts "YYYY-MM-DD" or "MM/DD/YYYY"; returns Date or null
 function parseISOorMMDDYYYY(value) {
   if (!value) return null;
   if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
-    // ISO
     const d = new Date(value);
     return isNaN(d) ? null : d;
   }
   if (/^\d{2}\/\d{2}\/\d{4}$/.test(value)) {
-    // MM/DD/YYYY
     const [m, d, y] = value.split("/").map(Number);
     const dt = new Date(y, m - 1, d);
     return isNaN(dt) ? null : dt;
@@ -22,74 +21,45 @@ function parseISOorMMDDYYYY(value) {
   return null;
 }
 
-// Mask: auto-insert slashes while typing digits -> MM/DD/YYYY
-function applyDateMask(input) {
-  // Handle paste of ISO or sloppy text
-  input.addEventListener("paste", (e) => {
-    const t = (e.clipboardData || window.clipboardData).getData("text").trim();
-    if (/^\d{4}-\d{2}-\d{2}$/.test(t)) {
-      e.preventDefault();
-      const [y, m, d] = t.split("-");
-      input.value = `${m}/${d}/${y}`;
-      input.dispatchEvent(new Event("input"));
-    }
-  });
+// Build MM/DD/YYYY from digits, auto-inserting slashes (for mobile numeric keyboard)
+function formatAsDate(raw) {
+  const digits = raw.replace(/\D/g, "").slice(0, 8); // MMDDYYYY
+  let mm = digits.slice(0, 2);
+  let dd = digits.slice(2, 4);
+  let yyyy = digits.slice(4, 8);
 
-  // Build value from digits only, insert slashes
-  input.addEventListener("input", () => {
-    const digits = input.value.replace(/\D/g, "").slice(0, 8); // MMDDYYYY
-    let mm = digits.slice(0, 2);
-    let dd = digits.slice(2, 4);
-    let yyyy = digits.slice(4, 8);
+  if (mm.length === 2) {
+    mm = String(Math.min(Math.max(parseInt(mm, 10) || 0, 1), 12)).padStart(
+      2,
+      "0"
+    );
+  }
+  if (dd.length === 2) {
+    dd = String(Math.min(Math.max(parseInt(dd, 10) || 0, 1), 31)).padStart(
+      2,
+      "0"
+    );
+  }
 
-    // Clamp month/day lightly
-    if (mm.length === 2) {
-      let m = Math.min(Math.max(parseInt(mm, 10) || 0, 1), 12);
-      mm = String(m).padStart(2, "0");
-    }
-    if (dd.length === 2) {
-      let d = Math.min(Math.max(parseInt(dd, 10) || 0, 1), 31);
-      dd = String(d).padStart(2, "0");
-    }
-
-    let out = mm;
-    if (dd) out += `/${dd}`;
-    if (yyyy) out += `/${yyyy}`;
-
-    input.value = out;
-  });
-
-  // Smooth backspace over slashes
-  input.addEventListener("keydown", (e) => {
-    if (e.key === "Backspace") {
-      const pos = input.selectionStart;
-      if (pos && input.value[pos - 1] === "/") {
-        e.preventDefault();
-        const before = input.value.slice(0, pos - 1);
-        const after = input.value.slice(pos);
-        input.value = before + after;
-        const newPos = pos - 1;
-        input.setSelectionRange(newPos, newPos);
-      }
-    }
-  });
+  let out = mm;
+  if (dd) out += "/" + dd;
+  if (yyyy) out += "/" + yyyy;
+  return out;
 }
 
 // ================= Data load =================
 let offensesData = [];
-let dataLoaded = false;
 fetch("hha_disqualifying_offenses_full_with_names.json")
   .then((r) => r.json())
   .then((d) => {
     offensesData = d;
-    dataLoaded = true;
   })
   .catch(() => {
     const results = document.getElementById("results");
     results.innerHTML = `
       <div class="result-badge yellow">⚠️ Could not load the offenses list.
-      Make sure <strong>hha_disqualifying_offenses_full_with_names.json</strong> is in the same folder and
-      you are running a local server.</div>`;
+      Ensure <strong>hha_disqualifying_offenses_full_with_names.json</strong> is in the same folder and
+      you are running a local server (or GitHub Pages).</div>`;
   });
 
 // ================= DOM hooks =================
@@ -98,6 +68,8 @@ document.getElementById("add-offense").addEventListener("click", addOffenseRow);
 document
   .getElementById("check-btn")
   .addEventListener("click", checkEligibility);
+
+// Clear (✖) for the name input
 document.querySelectorAll(".clear-input").forEach((btn) => {
   btn.addEventListener("click", () => {
     const id = btn.getAttribute("data-target");
@@ -106,7 +78,38 @@ document.querySelectorAll(".clear-input").forEach((btn) => {
   });
 });
 
-// start with one row
+// Event delegation for all current & future .date inputs
+offenseList.addEventListener("input", (e) => {
+  if (!e.target.classList.contains("date")) return;
+  e.target.value = formatAsDate(e.target.value);
+});
+offenseList.addEventListener("keydown", (e) => {
+  const el = e.target;
+  if (!el.classList.contains("date")) return;
+  if (e.key === "Backspace") {
+    const pos = el.selectionStart;
+    if (pos && el.value[pos - 1] === "/") {
+      e.preventDefault();
+      const before = el.value.slice(0, pos - 1);
+      const after = el.value.slice(pos);
+      el.value = before + after;
+      const newPos = pos - 1;
+      el.setSelectionRange(newPos, newPos);
+    }
+  }
+});
+offenseList.addEventListener("paste", (e) => {
+  const el = e.target;
+  if (!el.classList.contains("date")) return;
+  const t = (e.clipboardData || window.clipboardData).getData("text").trim();
+  if (/^\d{4}-\d{2}-\d{2}$/.test(t)) {
+    e.preventDefault();
+    const [y, m, d] = t.split("-");
+    el.value = `${m}/${d}/${y}`;
+  }
+});
+
+// Start with one row
 addOffenseRow();
 
 // ================= Rows =================
@@ -115,14 +118,13 @@ function addOffenseRow() {
   row.className = "offense-entry";
   row.innerHTML = `
     <input type="text" class="code" placeholder="Statute code (e.g., 2911.12)" inputmode="decimal" autocomplete="off" />
-    <input type="text" class="date" placeholder="MM/DD/YYYY (optional)" inputmode="numeric" maxlength="10" autocomplete="off" />
+    <input type="text" class="date" placeholder="MM/DD/YYYY (optional)" inputmode="numeric" pattern="[0-9/]*" maxlength="10" autocomplete="off" />
     <button type="button" class="remove-btn" aria-label="Remove offense">✖</button>
   `;
   offenseList.appendChild(row);
   row
     .querySelector(".remove-btn")
     .addEventListener("click", () => offenseList.removeChild(row));
-  applyDateMask(row.querySelector(".date")); // <-- enable auto slashes
 }
 
 // ================= Core Logic =================
@@ -142,7 +144,7 @@ function checkEligibility() {
 
     const match = offensesData.find((o) => o.statute_code === code);
 
-    // Unknown code ⇒ treat as NOT disqualifying
+    // Unknown code ⇒ not disqualifying
     if (!match) {
       results.push({
         code,
@@ -164,7 +166,7 @@ function checkEligibility() {
       return;
     }
 
-    // Tier V ⇒ always eligible
+    // Tier V ⇒ eligible now
     if (match.tier === 5) {
       results.push({
         code: match.statute_code,
@@ -175,7 +177,7 @@ function checkEligibility() {
       return;
     }
 
-    // Tier II–IV ⇒ need date to be accurate
+    // Tier II–IV ⇒ require date for accuracy
     const dischargeDate = parseISOorMMDDYYYY(dateStr);
     if (!dischargeDate) {
       results.push({
@@ -228,6 +230,7 @@ function checkEligibility() {
   if (hasNever) {
     html += `<div class="result-badge red">❌ ${name} is NOT eligible to work as an HHA.</div>`;
   } else if (futureDates.length > 0) {
+    // strictest: latest eligible date across offenses
     const maxDate = new Date(Math.max.apply(null, futureDates));
     html += `<div class="result-badge yellow">⚠️ ${name} is not eligible now, but will be eligible on ${formatDateMMDDYYYY(
       maxDate
